@@ -1,0 +1,108 @@
+/* Layout base */
+body {
+    margin: 10px;
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#nome {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: -10px;
+}
+
+#cargo {
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 0.4rem;
+}
+
+/* MENU */
+.menu {
+    text-align: center;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu::before,
+.menu::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #333;
+}
+
+.menu::before {
+    top: -4px; /* Ajuste conforme necessário para a posição acima do menu */
+}
+
+.menu::after {
+    bottom: -4px; /* Ajuste conforme necessário para a posição abaixo do menu */
+}
+
+.menu ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px; /* Adapte conforme necessário para o espaçamento desejado entre os itens */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Corpo */
+h2 {    
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+/* Rodapé com Créditos */
+#creditos {
+    text-align: center;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.creditos::before,
+.creditos::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #333;
+}
+
+.creditos::before {
+    top: -4px; /* Ajuste conforme necessário para a posição acima do menu */
+}
+
+.creditos::after {
+    bottom: -4px; /* Ajuste conforme necessário para a posição abaixo do menu */
+}
+
+/* Imagem */
+picture {
+    float: right;
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+
+    <!--Aqui vou usar só as regras em tipo style dentro do próprio HTML-->
+    <style>
+        /* Layout base */
+body {
+    margin: 20px;
+    background-color: antiquewhite;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+#nome {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: lighter;
+    font-size: 4rem;
+    letter-spacing: 0.3rem;
+    margin-bottom: -10px;
+}
+
+#cargo {
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 0.4rem;
+}
+
+/* MENU */
+.menu {
+    text-align: center;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.menu::before,
+.menu::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #333;
+}
+
+.menu::before {
+    top: -4px; /* Ajuste conforme necessário para a posição acima do menu */
+}
+
+.menu::after {
+    bottom: -4px; /* Ajuste conforme necessário para a posição abaixo do menu */
+}
+
+.menu ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px; /* Adapte conforme necessário para o espaçamento desejado entre os itens */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/*Corpo */
+h2 {    
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+/* Rodapé com Créditos */
+#creditos {
+    text-align: center;
+    border-top: 2px solid #333;
+    border-bottom: 2px solid #333;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.creditos::before,
+.creditos::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: #333;
+}
+
+.creditos::before {
+    top: -4px; /* Ajuste conforme necessário para a posição acima do menu */
+}
+
+.creditos::after {
+    bottom: -4px; /* Ajuste conforme necessário para a posição abaixo do menu */
+}
+
+/* Imagem */
+picture {
+    float: right;
+}
+
+picture img {
+    background-color: antiquewhite;
+    border-radius: 15rem;
+    width: 12rem;
+}
+
+    </style>
+</head>
+
+<body>
+    <!--NAV é o menu de navegação do site; pode ser para páginas internas ou externas-->
+    <nav class="menu">
+        <!--UL é uma lista não ordenada-->
+        <ul>
+            <!--LI é uma lista-->
+            <li>
+                <a href="index.html">Início</a>
+            </li>
+            <li>
+                <a href="pessoal.html" rel="next">Pessoal</a>
+            </li>
+            <li>
+                <a href="profissional.html" rel="next">Profissional</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!--SECTION é um bloco semântico genérico que precisa de um título para ter sentido-->
+    <section>
+        <h2>Aonde me encontrar</h2>
+        <p>Gostou do meu trabalho? Quer ver mais? Ou entrar em contato? Seguem, então, alguns links para você me encontrar online!</p>
+        <p><a class="linkLista" href="https://www.linkedin.com/in/josecarloslima1975/" target="_blank" rel="author">Perfil LinkedIn</a></p>
+        <p><a class="linkLista" href="https://linktr.ee/falabecapod" target="_blank" rel="author">Fala Beca! Podcast</a></p>
+        <p><a class="linkLista" href="https://jogo-do-heroi-xp.negocio.site/" target="_blank" rel="author">Facilitação do Jogo do Herói</a></p>
+        <p></i><a class="linkLista" href="https://zapbumcrash.blogspot.com/" target="_blank" rel="author">Meu blog sobre quadrinhos: Zap!Bum!Crash!</a></p>
+    </section>
+
+    <footer id="creditos">
+        <p>&copy; 2023 - José Carlos Lima</p>
+    </footer>
+</body>
+
+</html>

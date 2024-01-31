@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfólio Webdev</title>
+</head>
+
+<!--BODY é a seção onde fica todo o conteúdo-->
+
+<body>
+
+    <!--MAIN é uma tag única; define o conteúdo exclusivo da página-->
+    <main>
+
+        <!--HEADER identifica um cabeçalho-->
+        <header>
+            <h1 id="nome">José Carlos Lima</h1>
+            <h2 id="cargo">Marketing. Storytelling. Webdev.</h2>
+        </header>
+
+        <!--NAV é o menu de navegação do site; pode ser para páginas internas ou externas-->
+        <nav class="menu">
+            <!--UL é uma lista não ordenada-->
+            <ul>
+                <!--LI é uma lista-->
+                <li>
+                    <a href="pessoal.html" rel="next">Pessoal</a>
+                </li>
+                <li>
+                    <a href="profissional.html" rel="next">Profissional</a>
+                </li>
+                <li>
+                    <a href="contato.html" rel="next">Contato</a>
+                </li>
+            </ul>
+        </nav>
+
+            <!--SECTION representa uma seção genérica contida em um documento-->
+        <section>
+            <p>
+                Este é o meu Portfólio de projetos e estudos em desenvolvimento web. Aqui está a prática de tudo que aprendi e estou aprendendo nas aulas de desenvolvimento web. Servindo como estudo de caso, demonstrativo de minhas habilidades e vitrine da minha evolução. Sem mais, sejam bem-vindos ao experimentalismo!
+            </p>
+        </section>        
+    </main>
+
+    <section id="casos">
+        <h2>Estudos de Casos</h2>
+        <p>Abaixo seguem reunidos em dois grupos: um de exercícios resolvidos que foram propostos em aulas e outro de projetos que eu desenvolvi.</p>
+        
+        <h3>Exercícios</h3>
+        <ul type="square">
+            <li>
+                <p>
+                    Site com estrutura básica, duas páginas, incorporando vídeo de um repositório de mídia social.
+                    <a class="linkLista" href="https://josecarloslima.github.io/projeto-site/" target="_blank" rel="external">Cursos Em Vídeo - Guanabara</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Site que busca no navegador do usuário o horário, o mostra na tela, e muda de aparência conforme a informação obtida.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ExercicioGuanabaraSite01/" target="_blank" rel="external">Hora Certa</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Site onde o usuário entra com informações numéricas e tem como retorno uma imagem.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ExercicioGuanabaraSite02/" target="_blank" rel="external">Verificador de Idade</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Site com contador de valores crescente e decrescente com adição de emojis.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ExercicioAulaJavaScript16/" target="_blank" rel="external">Contador de
+                    Números</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Site que usa em sua lógica o conceito de laços de repetição para criar tabuadas.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ExercicioAulaJavScript17/" target="_blank" rel="external">Gerador deTabuada</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Site onde o usuário entra com valores entre 1 e 100 e o programa cria uma lista onde sabemos: a) Quantos valores foram cadastrados; b) O menor e o maior valor cadastrado; c) A soma dos valores cadastrados; e d) A média entre os valores cadastrados.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ExercicioAulaJavaScript18/" target="_blank" rel="external">Analisador de Números</a>
+
+                </p>
+            </li>
+        </ul>
+        
+        <h3>Projetos</h3>
+        <ul type="circle">
+            <li>
+                <p>
+                    Adaptação para o formato de <a href="https://pt.wikipedia.org/wiki/Narrativa_interativa" target="_blank" rel="author">história interativa</a> o conto do autor Felipe Cortatesi: Lucídia. O formato foi desenvolvido por alunos da Universidade de São Carlos para o <abbr title="Role Playing Game">RPG</abbr> Ópera.
+                    <a class="linkLista" href="https://operarpg.com.br/aventuras-solo/cronicas-de-lucidia/" target="_blank" rel="external">Lucida</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Elemento de apoio para jogos de RPG que sorteia frases usando o <a href="https://raullesteves.medium.com/algoritmo-de-fisher-yates-para-embaralhamento-de-arrays-ba13a0542e88" target="_blank" rel="author">algoritmo de Fisher-Yates</a> desenvolvido em JavaScript.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ProjetoSorteadorDeFrases/" target="_blank" rel="external">Sorteador de Frases</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Baralho online que sorteia cartas usando conceito de Arrays feito em <abbr title="JavaScript">JS</abbr>.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ProjetoSorteadorDeCartas/" target="_blank" rel="external">Baralho Online</a>
+                </p>
+            </li>
+            <li>
+                <p>
+                    Transposição do sistema de <em>cartas de lesão</em> do RPG de mesa The Yellow King para formato online.
+                    <a class="linkLista" href="https://josecarloslima.github.io/ProjetoInjuryCardsGumshoe/" target="_blank" rel="external">Injury Cards</a>
+                </p>
+            </li>
+            <li>
+                <p>Rolador de dados virtual que sorteia valores ou simula dados. Pode ser usado para encontrar
+                    valores do tipo dado + valor numérico (como usado em casos do tipo 1d8+2, ou 2d6+5, entre outros nessa
+                    linha); ou valores por dado de mesmo tipo (como usado em casos como 2d6, ou 2d10, entre outros na mesma
+                    lógica).
+                    <a class="linkLista" href="https://josecarloslima.github.io/ProjetoSorteadorNumerico//" target="_blank" rel="external">Rolador de Dados Online</a>
+                </p>
+            </li>
+        </ul>
+    </section>
+
+    <hr>
+
+    <section>
+        <h2>Conheça o Jogo do Herói</h2>
+        <p>Um serious game sobre protagonismo e os nossos enfrentamentos cotidianos. Baseado nos trabalhos com mitologia comparada do professor estadunidense Joseph Campbell.</p>
+        <p><a href="http://www.jogodoheroi.com.br/" target="_blank" rel="external">O Site do Jogo do Herói</a></p>       
+    </section>
+
+    <!--FOOTER é o rodapé, neste caso da página-->
+    <footer id="creditos">
+        <p>&copy; 2023 - José Carlos Lima</p>
+    </footer>
+
+</body>
+
+</html>
