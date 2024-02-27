@@ -1,8 +1,18 @@
+/*
+Paleta de Cores:
+    Base: #FAEBD7
+    Um tom: #CFBA9F
+    Três tons: #A68A65
+    Quatro tons: #7A5D36
+    Seis tons: #4F3615
+*/
+
 /* Layout base */
 body {
     margin: 10px;
-    background-color: antiquewhite;
+    background-color: #FAEBD7;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #4F3615;
     display: flex;
     flex-direction: column;
     padding-right: 50px;
@@ -27,45 +37,22 @@ body {
 /* MENU */
 .menu {
     text-align: center;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
-    margin-bottom: 10px;
-    position: relative;
-}
-
-.menu::before,
-.menu::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: #333;
-}
-
-.menu::before {
-    top: -4px; /* Ajuste conforme necessário para a posição acima do menu */
-}
-
-.menu::after {
-    bottom: -4px; /* Ajuste conforme necessário para a posição abaixo do menu */
-}
-
-.menu ul {
-    list-style: none; /* Remove os marcadores padrão da lista */
-    padding: 0;
-}
-
-.menu li {
-    display: inline-block;
-    margin-right: 20px; /* Adapte conforme necessário para o espaçamento desejado entre os itens */
-}
-
-.menu a {
-    text-decoration: none;
-    color: #333;
+    border-top: 2px solid #4F3615;
+    border-bottom: 2px solid #4F3615;
+    color: #4F3615;
     font-weight: bold;
-    padding: 10px;
+}
+
+.menu a, ul, li {
+    text-decoration: none;
+    list-style: none;    
+    color: #4F3615;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+}
+
+a:hover {
+    background-color: #CFBA9F;
 }
 
 /*Corpo */
@@ -77,8 +64,8 @@ h2 {
 /* Rodapé com Créditos */
 #creditos {
     text-align: center;
-    border-top: 2px solid #333;
-    border-bottom: 2px solid #333;
+    border-top: 2px solid #4F3615;
+    border-bottom: 2px solid #4F3615;
     margin-top: 10px;
     margin-bottom: 10px;
     position: relative;
@@ -91,7 +78,7 @@ h2 {
     left: 0;
     right: 0;
     height: 2px;
-    background-color: #333;
+    background-color: #4F3615;
 }
 
 .creditos::before {
