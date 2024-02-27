@@ -43,7 +43,9 @@ body {
     font-weight: bold;
 }
 
-.menu a, ul, li {
+.menu a, 
+.menu ul, 
+.menu li {
     text-decoration: none;
     list-style: none;    
     color: #4F3615;
@@ -51,7 +53,7 @@ body {
     padding: 0px 10px 0px 10px;
 }
 
-a:hover {
+.menu a:hover {
     background-color: #CFBA9F;
 }
 
