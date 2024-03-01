@@ -35,17 +35,15 @@ body {
 }
 
 /* MENU */
-.menu {
+#menu {
     text-align: center;
     border-top: 2px solid #4F3615;
     border-bottom: 2px solid #4F3615;
-    color: #4F3615;
-    font-weight: bold;
 }
 
-.menu a, 
-.menu ul, 
-.menu li {
+#menu a, 
+#menu ul, 
+#menu li {
     text-decoration: none;
     list-style: none;    
     color: #4F3615;
@@ -53,14 +51,37 @@ body {
     padding: 0px 10px 0px 10px;
 }
 
-.menu a:hover {
-    background-color: #CFBA9F;
+#menu a:hover {
+    background-color: #CFBA9F;    
+    font-weight: bold;
+}
+
+#menu a::before {
+    content: none;
 }
 
 /*Corpo */
 h2 {    
     letter-spacing: 0.2rem;
     text-transform: uppercase;
+}
+
+a {
+    display: block;
+    padding-top: 5px;
+    text-decoration: none;
+}
+
+a::before {
+    content: '❑ ';
+}
+
+a:hover {    
+    font-weight: bold;
+}
+
+a:visited {
+    color: #A68A65;
 }
 
 /* Rodapé com Créditos */
@@ -70,25 +91,6 @@ h2 {
     border-bottom: 2px solid #4F3615;
     margin-top: 10px;
     margin-bottom: 10px;
-    position: relative;
-}
-
-.creditos::before,
-.creditos::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    right: 0;
-    height: 2px;
-    background-color: #4F3615;
-}
-
-.creditos::before {
-    top: -4px; /* Ajuste conforme necessário para a posição acima do menu */
-}
-
-.creditos::after {
-    bottom: -4px; /* Ajuste conforme necessário para a posição abaixo do menu */
 }
 
 /* Imagem */
