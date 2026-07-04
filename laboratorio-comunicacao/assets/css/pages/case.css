@@ -1,0 +1,157 @@
+/* ==========================
+   CASE
+========================== */
+
+.case{
+
+    padding-top:10rem;
+
+    padding-bottom:8rem;
+
+}
+
+.case-container{
+
+    max-width:760px;
+
+    margin:0 auto;
+
+}
+
+.case-header{
+
+    margin-bottom:6rem;
+
+}
+
+.case-number{
+
+    display:inline-block;
+
+    margin-bottom:1.5rem;
+
+    padding-bottom:.5rem;
+
+    border-bottom:1px solid var(--color-primary);
+
+    font-size:.75rem;
+
+    letter-spacing:.18em;
+
+    text-transform:uppercase;
+
+    color:var(--color-text-light);
+
+}
+
+.case-header h1{
+
+    margin-bottom:1.5rem;
+
+}
+
+.case-subtitle{
+
+    font-size:1.2rem;
+
+    color:var(--color-text-light);
+
+    line-height:1.8;
+
+    max-width:60ch;
+
+    margin-top:2rem;
+
+}
+
+.case-category{
+
+    margin-top:1rem;
+
+    font-size:.82rem;
+
+    letter-spacing:.18em;
+
+    text-transform:uppercase;
+
+    color:var(--color-accent);
+
+}
+
+/* ==========================
+   CASE SECTIONS
+========================== */
+
+.case-section{
+
+    margin-bottom:5rem;
+
+}
+
+.case-section h2{
+
+    margin-bottom:1.5rem;
+
+}
+
+.case-section p{
+
+    color:var(--color-text);
+
+}
+
+/* ==========================
+   RODAPÉ
+========================== */
+
+.case-footer{
+
+    margin-top:7rem;
+
+    padding-top:3rem;
+
+    border-top:1px solid var(--color-border);
+
+}
+
+.case-footer p{
+
+    font-family:var(--font-title);
+
+    font-size:1.6rem;
+
+    margin-bottom:1.5rem;
+
+}
+
+.case-footer a{
+
+    font-weight:600;
+
+    color:var(--color-primary);
+
+}
+
+.case-end{
+
+    font-family:var(--font-title);
+
+    font-size:1.5rem;
+
+    margin-bottom:.4rem;
+
+}
+
+.case-signature{
+
+    font-size:.9rem;
+
+    letter-spacing:.15em;
+
+    text-transform:uppercase;
+
+    color:var(--color-text-light);
+
+    margin-bottom:2rem;
+
+}

@@ -1,0 +1,27 @@
+/* ==========================
+   CONTAINERS
+========================== */
+
+.container{
+
+    width:min(90%,var(--container-width));
+
+    margin-inline:auto;
+
+}
+
+.container-small{
+
+    width:min(90%,800px);
+
+    margin-inline:auto;
+
+}
+
+.container-wide{
+
+    width:min(94%,1400px);
+
+    margin-inline:auto;
+
+}

@@ -1,0 +1,43 @@
+.hero {
+
+    display: flex;
+
+    align-items: center;
+
+    min-height: 100svh;
+
+    padding-top: 120px;
+
+}
+
+.hero-tag {
+
+    text-transform: uppercase;
+
+    letter-spacing: .15em;
+
+    font-size: .8rem;
+
+    color: var(--color-accent);
+
+    margin-bottom: var(--space-2);
+
+}
+
+.hero h1 {
+
+    max-width: 700px;
+
+    margin-bottom: var(--space-3);
+
+}
+
+.hero .lead {
+
+    font-size: 1.2rem;
+
+    color: var(--color-text-light);
+
+    margin-bottom: var(--space-4);
+
+}
